@@ -6,8 +6,7 @@
 
   
   <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
-
+  
 </head>
 
 <body>
@@ -82,24 +81,7 @@
   </a-entity>
 
   
-  <a-plane
-    position="10 1.05 4"
-    rotation="-90 0 0"
-    width="8"
-    height="12"
-    material="shader: standard;
-              color: #4fd1ff;
-              metalness: 0.9;
-              roughness: 0.05;
-              opacity: 0.75;
-              transparent: true"
-    animation="property: material.offset;
-               to: 1 0;
-               dur: 4000;
-               loop: true;
-               easing: linear">
-  </a-plane>
-
+  
   
   <a-light type="ambient" intensity="0.6"></a-light>
   <a-light type="directional" position="10 20 10" intensity="1.2"></a-light>
